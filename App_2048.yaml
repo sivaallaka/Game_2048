@@ -14,9 +14,10 @@ metadata:
 spec:
   replicas: 2
   selector:
-    app: web-2048
-    project: game-2048
-    tier: web
+    matchLabels:
+      app: web-2048
+      project: game-2048
+      tier: web
   template:
     metadata:
       labels: 
