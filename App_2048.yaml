@@ -6,7 +6,7 @@ metadata:
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  Namespace: game-2048
+  namespace: game-2048
   labels: 
     app: web-2048
     project: game-2048
