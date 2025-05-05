@@ -7,6 +7,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   namespace: game-2048
+  name: deploment-2048
   labels: 
     app: web-2048
     project: game-2048
@@ -31,6 +32,7 @@ spec:
         imagePullPolicy: Always       
         ports:
         - containerPort: 80
+
 
 ---
 apiVersion: v1 
